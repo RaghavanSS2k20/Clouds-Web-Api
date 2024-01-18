@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "CloudsTheweb/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "CloudsTheweb/wsgi.py"
+      }
+    ]
+}
