@@ -23,14 +23,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-bw2=sh@bn5b72auxmryn&j@h0!&5gol-1x02g4d+u_*s#gdgq3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["clouds-web-api.vercel.app"]
 
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:8081',
-    'https://clouds-web-api.vercel.app'
+    'https://clouds-web-api.vercel.app',
+    'http://localhost:3000'
 )
 # Application definition
 
