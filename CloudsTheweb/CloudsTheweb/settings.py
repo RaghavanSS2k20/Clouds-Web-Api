@@ -28,6 +28,14 @@ DEBUG = False
 ALLOWED_HOSTS = ["clouds-web-api.vercel.app"]
 
 CORS_ORIGIN_ALLOW_ALL = False
+CORS_ALLOW_METHODS = [
+'DELETE',
+'GET',
+'OPTIONS',
+'PATCH',
+'POST',
+'PUT',
+]
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:8081',
     'https://clouds-web-api.vercel.app',
