@@ -84,11 +84,12 @@ WSGI_APPLICATION = 'CloudsTheweb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Clouds',
+        'URL':"postgresql://postgres:e1fE*FdD166EFECdaGF1eEbFe*dAdEGf@viaduct.proxy.rlwy.net:36135/railway",
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'PASSWORD': 'e1fE*FdD166EFECdaGF1eEbFe*dAdEGf',
+        'HOST': 'viaduct.proxy.rlwy.net',
+        'PORT': '36135',
     }
 }
 
